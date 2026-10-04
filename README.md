@@ -27,7 +27,6 @@ The resultant predominant candidate genes, proteins, and metabolites were used f
 Libraries included pandas, NumPy, Matplotlib, Seaborn, SciPy, and Statsmodels, where applicable.
 
 Machine Learning and Model Evaluation
-
 A Random Forest Regression model was used to investigate whether molecular features could predict target analyte concentration.
 The reported model evaluation results were:
 R² score: 0.522
