@@ -38,6 +38,7 @@ Gene 14, Protein 19 and 20, Metabolites 14, 18 and 20.
 ## Correlation Analysis
 
 The correlation analysis identified candidate genes, proteins, and metabolites associated with the target analyte.
+
 ![Correlation Heatmap](correlation_heatmap.png)
 
 Conclusion
