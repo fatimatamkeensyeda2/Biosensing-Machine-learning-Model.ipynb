@@ -35,10 +35,6 @@ Root Mean Squared Error (RMSE): 2.932
 Feature importance analysis highlighted the following candidates:
 Gene 14, Protein 19 and 20, Metabolites 14, 18 and 20.
 
-# Correlation Analysis
-The correlation analysis identified candidate genes, proteins, and metabolites associated with the target analyte.
-![Correlation Heatmap](correlation_heatmap.png)
-
 Conclusion
 This project demonstrates the application of Python-based data analysis, statistical correlation, and machine learning to biosensor data containing gene, protein, and metabolite features. The analysis identified Gene 14, Protein 19 and Protein 20, Metabolite 14, Metabolite 18 and Metabolite as candidate features based on the reported correlation and Random Forest feature importance results. These steps would help determine whether the observed associations are reproducible and scientifically meaningful.
 
