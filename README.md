@@ -34,9 +34,9 @@ Mean Absolute Error (MAE): 1.993
 Root Mean Squared Error (RMSE): 2.932
 Feature importance analysis highlighted the following candidates:
 Gene 14, Protein 19 and 20, Metabolites 14, 18 and 20.
-(figures/random_forest_feature_importance.PNG)
+[Random Forest Feature Importance](figures/random_forest_feature_importance.png)
 
-Correlation_Heatmap_Candidate_Features:
+Correlation_Heatmap_Candidate_Features
 [Candidate Feature Correlation Heatmap](figures/candidate_correlation_heatmap.png)
 
 Conclusion
