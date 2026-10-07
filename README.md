@@ -14,8 +14,7 @@ Target variable: Target_Analyte_Concentration_ng_mL
 Additional variable: Analyte_Class, representing categories of target analyte concentration.
 The dataset was analyzed to explore associations between molecular features and target analyte concentration.
 
-Exploratory Data Analysis and Statistical Analysis
-
+Exploratory Data Analysis and Statistical Analysis:
 Python was used to perform data cleaning, exploratory data analysis (EDA), visualization, and statistical analysis.
 The workflow included:
 Inspecting dataset structure, data types, and missing values.
@@ -26,6 +25,7 @@ Applying false discovery rate (FDR) correction to account for multiple statistic
 The resultant predominant candidate genes, proteins, and metabolites were used for further investigation.
 Libraries included pandas, NumPy, Matplotlib, Seaborn, SciPy, and Statsmodels, where applicable.
 
+Results:
 Machine Learning and Model Evaluation
 A Random Forest Regression model was used to investigate whether molecular features could predict target analyte concentration.
 The reported model evaluation results were:
@@ -34,11 +34,12 @@ Mean Absolute Error (MAE): 1.993
 Root Mean Squared Error (RMSE): 2.932
 Feature importance analysis highlighted the following candidates:
 Gene 14, Protein 19 and 20, Metabolites 14, 18 and 20.
-[Random Forest Feature Importance](figures/random_forest_feature_importance.png)
 
+Figures:
+[Random Forest Feature Importance](figures/random_forest_feature_importance.png)
 Correlation_Heatmap_Candidate_Features
 [Candidate Feature Correlation Heatmap](figures/candidate_correlation_heatmap.png)
 
-Conclusion
+Conclusion:
 This project demonstrates the application of Python-based data analysis, statistical correlation, and machine learning to biosensor data containing gene, protein, and metabolite features. The analysis identified Gene 14, Protein 19 and Protein 20, Metabolite 14, Metabolite 18 and Metabolite as candidate features based on the reported correlation and Random Forest feature importance results. These steps would help determine whether the observed associations are reproducible and scientifically meaningful.
 
